@@ -1,0 +1,62 @@
+/* body{
+    background: url(../images/img02.jpg) no-repeat;
+} */
+
+h1{
+    color: blue;
+    text-align: center;
+    user-select: none;
+}
+#show-sum{
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    display: block;
+    text-align: center;
+
+}
+
+form{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+input[type=text]{
+    background-color: rgb(255, 238, 0);
+    
+
+}
+
+input[type=text]:focus{
+    background-color: chartreuse;
+}
+
+hr{
+    width: 70%;
+}
+
+button{
+    width: 100px;
+    padding: 7px 0;
+    border-radius: 50px;
+    border: none;
+    box-shadow: gray;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#btn-red{
+    background-color: red;
+}
+
+#btn-green{
+    background-color: green;
+}
+
+#btn-yellow{
+    background-color: yellow;
+}
